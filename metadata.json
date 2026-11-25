@@ -1,0 +1,6 @@
+{
+  "name": "Toolora",
+  "description": "Free, fast, browser-based online tools for text, calculators, QR codes, passwords, and image compression.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

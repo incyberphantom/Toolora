@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toolora – Free Online Tools for Text, Calculators, QR & Images</title>
+    <meta
+      name="description"
+      content="Toolora offers free, fast, privacy-first online tools that run directly in your browser. Count words, convert case, calculate GST & age, generate QR codes, and compress images."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Toolora" />
+    <meta property="og:title" content="Toolora – Free Online Tools for Text, Calculators, QR & Images" />
+    <meta
+      property="og:description"
+      content="Free, fast, privacy-first online tools that run directly in your browser. No uploads, no accounts, 100% free."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Toolora – Free Online Tools for Text, Calculators, QR & Images" />
+    <meta
+      name="twitter:description"
+      content="Free, fast, privacy-first online tools that run directly in your browser. No uploads, no accounts, 100% free."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json" id="toolora-jsonld">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Toolora",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "All",
+        "description": "Free, privacy-first online tools that run directly in your browser including Word Counter, Case Converter, Password Generator, Percentage Calculator, GST Calculator, Age Calculator, QR Code Generator, and Image Compressor.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('toolora-theme');
+          if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-blue-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
